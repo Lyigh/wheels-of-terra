@@ -1,0 +1,39 @@
+#Blight Mob Settings
+#Chance to spawn a blight (0.01 = 1%, 1.0 = 100%)
+#Range: 0.0 ~ 1.0
+spawnChance = 0.01
+#Minimum XP dropped by a blight mob
+#Range: > 0
+xpMin = 1000
+#Maximum XP dropped by a blight mob
+#Range: > 0
+xpMax = 3000
+#No drop? ok then
+dropItem = true
+#Item ID to drop (example 'skilltree:wisdom_scroll', 'minecraft:diamond')
+dropItemId = "caverns_and_chasms:zirconia"
+#How many items to drop
+#Range: 0 ~ 64
+dropItemCount = 1
+#List of entries that cannot become blight. Supports 3 formats:
+#  'minecraft:bat'        -> blacklist mob ID 
+#  'alexsmobs:*'          -> blacklist everything from a mod
+#  '#forge:animals'       -> blacklist with entity tag, might not working with some mobs idk
+#
+#if those entries don't working then you can use Whitelist for easier picking
+#All the friendly and neutral vanilla mobs have been blacklisted, you can add or remove anything you want
+mobBlacklist = ["snekcraft:*", "productivebees:*", "opposing_force:*", "flintnpowder:*", "kaleidoscope_tavern:thrown_molotov", "unusual_prehistory:*", "relics:*", "psi:*", "functionality:*", "hoppergadgetry:*", "kaleidoscope_cookery:*", "kaleidoscope_nether:*", "bosses_of_mass_destruction:*", "irons_spellbooks:*", "irons_rpg_tweaks:xp_catalyst", "regions_unexplored:*", "dummmmmmy:target_dummy", "autumnity:*", "beachparty:*", "caverns_and_chasms:*", "easy_npc:*", "fowlplay:*", "dragnlivestock:*", "fferrets:ferret", "#forge:animals", "#forge:fish", "minecraft:bat", "minecraft:squid", "minecraft:glow_squid", "minecraft:dolphin", "minecraft:axolotl", "minecraft:frog", "minecraft:tadpole", "minecraft:allay", "minecraft:sniffer", "minecraft:camel", "minecraft:cow", "minecraft:mooshroom", "minecraft:sheep", "minecraft:pig", "minecraft:chicken", "minecraft:rabbit", "minecraft:horse", "minecraft:donkey", "minecraft:mule", "minecraft:llama", "minecraft:trader_llama", "minecraft:cat", "minecraft:ocelot", "minecraft:parrot", "minecraft:fox", "minecraft:panda", "minecraft:polar_bear", "minecraft:bee", "minecraft:wolf", "minecraft:turtle", "minecraft:goat", "minecraft:villager", "minecraft:wandering_trader", "minecraft:snow_golem", "minecraft:iron_golem", "minecraft:strider", "minecraft:piglin", "minecraft:zombified_piglin"]
+#List of entries that CAN become blight, even if matched by blacklist.
+#Whitelist takes priority over blacklist. Same 3 formats supported:
+#  'alexsmobs:enderiophage'  -> allows this mob from Alex's mobs to become Blight
+#  'alexsmobs:*'             -> allows every mobs from this mod to become Blight
+#  '#forge:bosses'           -> allows everymob from this tag to become Blight
+#
+#Example: blacklist 'alexsmobs:*' but whitelist 'alexsmobs:enderiophage', then every mobs from Alex's mobs wont Blight but the Enderiophage will
+mobWhitelist = ["realmrpg_demons:*", "minecraft:zombie", "minecraft:skeleton", "minecraft:pillager", "savage_and_ravage:*", "flintnpowder:berserk_cultist"]
+#If some type of Blight that too hard for you to handle then you can accept cowardice and get rid of them
+#ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
+#Example: BLUE, PURPLE, RED, BLACK, WHITE, ORANGE, GREEN, CYAN
+#Ex: ["CYAN", "GREEN"] will turn off completely of them.(Also I highly recommend install the Configured mod for better editing)
+blightTypeBlacklist = ["PURPLE", "WHITE", "ORANGE", "GREEN", "CYAN"]
+

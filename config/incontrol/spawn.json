@@ -1,0 +1,39 @@
+[
+    {
+      "mob": "minecraft:creeper",
+      "mincount": {
+        "amount": 5,
+        "mod": "minecraft",
+        "perplayer": true
+      },
+      "result": "deny"
+    },
+    {
+      "mob":"minecraft:zombie",
+      "structure": "dungeoncrawl:dungeon",
+      "result":"allow",
+      "when":"finalize",
+      "maxheight":60,
+      "minheight":40,
+      "healthset":34,
+      "damageset": 12,
+      "speedmultiply": 1.2,
+      "potion": "minecraft:fire_resistance,10000,0",
+      "customname": "Dungeon Zombie Lv. 1"
+    },
+    {
+      "mob": "fowlplay:crow",
+      "result": "deny",
+      "when": "onjoin"
+    },
+    {
+      "dimension": "minecraft:overworld",
+      "mod": "fowlplay",
+      "mincount": {
+        "amount": 6,
+        "mod": "fowlplay",
+        "perchunk": true
+      },
+      "result": "deny"
+    }
+]

@@ -1,0 +1,64 @@
+{
+  // -----------------------------------------------------------
+  //              Item Obliterator by ElocinDev
+  // -----------------------------------------------------------
+  //  
+  // How to add items?
+  //   - They are json strings, so you need to separate each
+  //     entry with a comma, except the last
+  //   - If you start an entry with !, it will be treated as a regular expression
+  //     Example: "!minecraft:.*_sword" to disable all swords
+  //  
+  // -----------------------------------------------------------
+  // Do not touch this
+  "configVersion": 2,
+  // -----------------------------------------------------------
+  // Items here will be unusable completely
+  //    Example: minecraft:diamond
+  "blacklisted_items": [
+    'locks:gold_lock_pick', 'locks:diamond_lock_pick', 'locks:netherite_lock_pick', 
+    'cold_sweat:thermometer', 
+    'flintnpowder:steel_nugget', 'flintnpowder:steel_alloy', 
+    'flintnpowder:steel_ingot',
+    'productivebees:powered_centrifuge', 'productivebees:heated_centrifuge', 
+    'productivebees:honey_generator', 'productivebees:incubator', 
+    'productivebees:breeding_chamber', 
+    'customblight:inverted_spear',
+    'overgeared:copper_boots', 'overgeared:copper_leggings', 
+    'overgeared:copper_helmet', 'overgeared:copper_chestplate', 
+    'caverns_and_chasms:copper_shovel', 'caverns_and_chasms:copper_pickaxe', 
+    'caverns_and_chasms:copper_axe', 'caverns_and_chasms:copper_hoe', 
+    'caverns_and_chasms:copper_sword', 
+    'overgeared:stone_hammer_head', 'overgeared:stone_pickaxe_head', 
+    'overgeared:stone_axe_head', 'overgeared:stone_shovel_head', 
+    'overgeared:stone_hoe_head', 'overgeared:knappable_rock'
+  ],
+  // -----------------------------------------------------------
+  // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
+  // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.
+  // 	
+  // 	 Example to disable a regeneration potion: Potion:"minecraft:regeneration"
+  // 	
+  // 	 You can also use regular expressions by starting the value with !
+  "blacklisted_nbt": [],
+  // -----------------------------------------------------------
+  // Items here will not be able to be right-clicked (Interact)
+  //    Example: minecraft:apple
+  "only_disable_interactions": [],
+  // -----------------------------------------------------------
+  // Items here will not be able to be used to attack
+  //    Example: minecraft:diamond_sword
+  "only_disable_attacks": [],
+  // -----------------------------------------------------------
+  // Items here will get their recipes disabled
+  // Keep in mind this already is applied to blacklisted items
+  "only_disable_recipes": [],
+  // -----------------------------------------------------------
+  // If true, the mod will use a hashset to handle the blacklisted items
+  // This is a more optimized approach only if you have a lot of items blacklisted (20 or more is recommended)
+  // If you just have a small amount of items blacklisted, keep this false
+  //  
+  // [!] Enabling this will disable all regular expressions
+  // [!] Does not apply to NBT, only item blacklist / interaction / attack
+  "use_hashmap_optimizations": false
+}

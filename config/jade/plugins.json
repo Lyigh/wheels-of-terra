@@ -1,0 +1,116 @@
+{
+  "minecraft": {
+    "item_storage.show_name_amount": 5,
+    "furnace": false,
+    "harvest_tool.show_unbreakable": true,
+    "travelerscompass": true,
+    "animal_owner": true,
+    "harvest_tool.effective_tool": true,
+    "item_storage.normal_amount": 9,
+    "item_storage": false,
+    "harvest_tool": true,
+    "armor_stand": false,
+    "fluid_storage.detailed": false,
+    "energy_storage": false,
+    "entity_armor.max_for_render": 40,
+    "breaking_progress": false,
+    "tnt_stability": false,
+    "item_storage.items_per_line": 9,
+    "item_frame": false,
+    "crop_progress": false,
+    "command_block": false,
+    "mob_growth": false,
+    "waxed": false,
+    "harvest_tool.new_line": false,
+    "entity_health.max_for_render": 40,
+    "entity_health.show_fractions": false,
+    "mob_spawner": true,
+    "redstone": false,
+    "fluid_storage": false,
+    "chicken_egg": false,
+    "jukebox": false,
+    "brewing_stand": false,
+    "energy_storage.detailed": false,
+    "note_block": false,
+    "beehive": false,
+    "item_storage.detailed_amount": 54,
+    "player_head": false,
+    "block_states": false,
+    "lectern": false,
+    "entity_armor": false,
+    "harvest_tool.creative": false,
+    "horse_stats": true,
+    "item_tooltip": false,
+    "entity_health": false,
+    "enchantment_power": true,
+    "zombie_villager": true,
+    "villager_profession": true,
+    "mob_breeding": false,
+    "entity_health.icons_per_line": 10,
+    "total_enchantment_power": true,
+    "potion_effects": true,
+    "painting": true,
+    "chiseled_bookshelf": false
+  },
+  "treechop": {
+    "plugin": true,
+    "show_tree_block_counts": true,
+    "show_num_chops_remaining": true
+  },
+  "opposing_force": {
+    "skyvern_segment": true
+  },
+  "papercraft_magic_decoration": {
+    "spores_collection_plate": true,
+    "papercutting_table": true,
+    "mocha_pot": true
+  },
+  "jade": {
+    "coordinates.rel": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "mod_name": false
+  },
+  "dragnlivestock": {
+    "age_time": true,
+    "dry_time": true,
+    "o_tooltips": true
+  },
+  "balm": {
+    "jade": false
+  },
+  "productivebees": {
+    "solitary_nest": true,
+    "jar": true,
+    "canvas_beehive": true,
+    "bee_attributes": true,
+    "productive_bee": true
+  },
+  "eclipticseasons": {
+    "greenhouse_core": true,
+    "animal": true,
+    "cauldron": true,
+    "crop": true,
+    "snowy_status": true,
+    "crop.shift_hint": true
+  },
+  "kaleidoscope_cookery": {
+    "chopping_board": true,
+    "shawarma_spit": true,
+    "recipe_block": true,
+    "millstone": true,
+    "enamel_basin": true
+  },
+  "item-descriptions": {
+    "block_descriptions": true,
+    "entity_descriptions": true
+  },
+  "kaleidoscope_tavern": {
+    "barrel": true
+  },
+  "astages": {
+    "block_component_provider": true
+  }
+}
