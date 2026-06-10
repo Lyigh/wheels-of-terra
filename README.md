@@ -1,4 +1,4 @@
-# wheels-of-terra
+# The Wheels of Terra
 
 Official Configs, Resources, and Issue Tracker for the Wheels of Terra modpack.
 
